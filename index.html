@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>kurs-bitcoin</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrap-conatiner">
+        <h2>Kurs Bitcoin do PLN</h2>
+
+        <p id="buy-price"></p><i class="fab fa-bitcoin"></i><i class="fas fa-minus" id="buy-arrow"></i>
+
+
+        <h3>Odświeżaj co: </h3>
+        <button value="5000">5 sekund</button>
+        <button value="10000">10 sekund</button>
+        <button value="30000">30 sekund</button>
+        <button value="60000">60 sekund</button>
+
+        <strong>Kurs odświeżany jest co <span id="refresh-frequency">5 sekund</span></strong>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
